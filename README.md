@@ -30,9 +30,19 @@ https://image-search-engine-bygg.netlify.app/
 4. The results are displayed in a responsive grid.
 5. Click **Show More** to load additional results.
 
-## API
+## API Key Setup
 
-This project uses the **Unsplash API** to search for and retrieve images.
+This project uses the **Unsplash API** and requires an Unsplash API access key.
+
+Before running the project, open `index.html` and replace:
+
+```javascript
+const accessKey = "ACCESS KEY HERE";
+```
+
+with your own Unsplash API access key.
+
+**Do not commit your actual API key to a public GitHub repository.**
 
 ## Project Structure
 
